@@ -18,6 +18,8 @@ The analysis combines several data sources:
 
 Preprocessed datasets are stored as `.rds` files in the `data/` directory. The analysis additionally requires `Europe_comparison.xlsx` in the repository's root directory.
 
+The *.rds data are generated using R scripts and stored in the data subfolder.
+
 ## Empirical Analysis
 
 The main specifications use panel regressions with country and year fixed effects and standard errors clustered at the country level.
